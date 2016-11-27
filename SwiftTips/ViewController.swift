@@ -101,7 +101,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
        // tableView.reloadData()
     }
     
-    
+    //MARK: -- 线 顶头
     override func viewDidLayoutSubviews() {// 设置内边距 和外边距
         self.tableView.separatorInset = UIEdgeInsets.zero
         self.tableView.layoutMargins = UIEdgeInsets.zero
